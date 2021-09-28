@@ -26,7 +26,7 @@ export default function StandaloneToggleButton() {
       }}
     >
       <Button style={{ color: 'white' }}>
-        {isFarenheit ? <span>F&deg;</span> : <span>C&deg;</span>}
+        {isFarenheit ? <span>&deg;C</span> : <span>&deg;F</span>}
       </Button>
       {/* <CheckIcon style={{ color: 'white' }} /> */}
     </ToggleButton>
